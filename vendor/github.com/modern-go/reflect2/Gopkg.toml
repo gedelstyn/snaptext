@@ -1,4 +1,10 @@
 # Gopkg.toml example
+[metadata.heroku]
+  root-package = "github.com/heroku/go-getting-started"
+  go-version = "1.8.3"
+  install = [ "./..." ]
+
+
 #
 # Refer to https://golang.github.io/dep/docs/Gopkg.toml.html
 # for detailed Gopkg.toml documentation.
